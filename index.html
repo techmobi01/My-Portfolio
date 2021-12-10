@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charsset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Website</title>
+<style>
+body {
+     margin: 0;
+     padding: 0;
+     background-image: url(myimg.jpeg);
+     background-size: cover;
+     font-family: "Segoe UI", Tahona, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    text-align: right;
+    margin-top: 40px;
+    bottom: none;
+}
+
+ul li {
+       list-style: none;
+       display: inline;
+       padding: 40px;
+}
+
+ul li a {
+        transition: 0.4s;
+         text-decoration: none;
+}
+a {
+   color: #F3F1F1;
+   transitiion: 0.4s;
+   font-weight: 600px;
+   font-size: 18px;
+}
+a:hover{
+     color: #F3F1F1;
+     background-color: #FC0511;
+     padding: 24px 10px;
+}
+.logo {
+     position: absolute;
+     width: 189px;
+     height: 53px;
+     left: 63px;
+     top: 26px;
+     
+     border-radius: 10px;
+}
+.btn1{
+  color: red;
+  width: 159px;
+  height: 63px;
+  box-sizing: border box;
+  border: 2px solid #EFEFEF;
+  border-radius: 40px;
+  font-size: 20px;
+  transition: 0.4s;
+}
+.btn1:hover{
+     background: #F3F1F1;
+     color: #6E0D39;
+}
+
+.circle1 {
+     position: absolute;
+     width: 188px;
+     height: 183px;
+     left: 441px;
+     top: 207px;
+     background: #13117E;
+     color: #E1E1E1;
+     opacity: 0.3;
+     border-radius: 50%;
+     animation: cir1cle 15s linear infinite;
+     transition: 1s;
+}
+.circle2 {
+     transition: 1s;
+     position: absolute;
+     width: 294px;
+     height: 288px;
+     left: -66px;
+     top: 366px;;
+     background: #13117E;
+     opacity: 0.5;
+     color: #E1E1E1;
+     border-radius: 50%;
+     animation: cir2cle 15s linear infinite;
+}
+.circle3{
+     position: absolute;
+     width: 114px;
+     height: 114px;
+     left: 1243px;
+     top: 106px;;
+     background: #FC0511;
+     border-radius: 50%;
+     transition: 1s;
+     animation: cir3cle 15s linear infinite;
+}
+.text-box h4{
+     position: absolute;
+     width: 248px;
+     height: 59px;
+     left: 81px;
+     top: 199px;
+     font-family: Roboto;
+     font-style: normal;
+     font-wight: normal;
+     font-size: 24px;
+     line-height: 28px;
+     letter-spacing: 0.05en;
+     color: #E1E1E1;
+
+}
+.text-box h1{
+     position: absolute;
+     width: 433px;
+     height: 239px;
+     left: 83px;
+     top: 210px;
+     font-family: Roboto;
+     font-style: normal;
+     font-wight: bold;
+     font-size: 96px;
+     line-height: 112px;
+     letter-spacing: 0.05en;
+     color: #EBEBE3;
+}
+.p{ 
+    position: absolute;
+     width: 611px;
+     height: 53px;
+     left: 85px;
+     top: 480px;
+     font-family: Roboto;
+     font-style: normal;
+     font-wight: normal;
+     font-size: 20px;
+     line-height: 23px;
+     letter-spacing: 0.05en;
+     color: #E7E7E7;
+}
+h5{
+     position: absolute;
+     width: 248px;
+     height: 59px;
+     left: 85px;
+     top: 500px;
+     font-family: Roboto;
+     font-style: normal;
+     font-wight: normal;
+     font-size: 24px;
+     line-height: 56px;
+     letter-spacing: 0.05en;
+     color: #E1E1E1;
+}
+.fb{
+     width: 40px;
+     height: 40px;
+}
+.insta{
+     width: 40px;
+     height: 40px;
+}
+
+.Icons img{
+     position: relative;
+     top: 490px;
+     left: 80px;
+     padding-left: 10px;
+}
+@keyframes cir1cle {
+     100%{
+          transform: translateX(800px) translateY(-800px);
+         }
+}
+@keyframes cir2cle {
+     100%{
+          transform: translateX(1430px) translateY(-120px);
+         }
+}
+@keyframes cir3cle {
+     100%{
+          transform: translateX(-1330px) translateY(120px);
+         }
+}
+
+
+
+</style>
+</head>
+
+
+<body>
+<nav>
+   <ul>
+      <li><img src="Rectangle.png" class="logo"></li>
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="#">PORTFOLIO</a></li>
+      <li><a href="#">CONTACT</a></li>
+      <li><button class="btn1">Get Started</button></li>
+   </ul>
+</nav>
+<div class="text-box">
+    <h4>Hello,I Am</h4>
+    <h1>YOGESH RAIKWAR</h1>
+    <h3 class ="p">Studing in<br>Indira College of Engineering</h3>
+    <h5>Find Me on</h5>
+    <div class="Icons">
+       <img src="fb.png" class="fb">
+       <img src="insta.png" class="insta">
+    </div> 
+</div>
+<img src="Circle01.png" class="circle1">
+<img src="Circle01.png" class="circle2">
+<img src="Circle02.png" class="circle3">
+
+</body>
+</html>
